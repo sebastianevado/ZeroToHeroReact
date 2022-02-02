@@ -1,0 +1,7 @@
+/* toda la etiqueta de parrafo que este cerca de un h2 */
+
+h2 + p{
+    color: red;
+}
+
+/* combinador adyacent sibling */

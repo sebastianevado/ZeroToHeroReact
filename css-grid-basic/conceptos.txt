@@ -1,0 +1,4 @@
+que es un container: Es el elemento que se va a convertir en un grilla y los items son los elementos dentro de ese container 
+Lineas: Elementos que limitan o dividen las filas y columnas de una grilla
+Celda: Es la unidad minima que podemos tener dentro de una grilla
+Podemos hacer grupos de celdas como Track, Area

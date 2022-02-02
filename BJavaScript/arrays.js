@@ -1,0 +1,1 @@
+var listaProductos = ["computador","Tablet",""]

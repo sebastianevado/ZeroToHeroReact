@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-size: border-box;
+}
+.container {
+    display: grid;
+    border: 5px solid blue;
+    background-color: white;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px 150px 150px;
+    grid-template-areas: 
+    "nav head head"
+    "main main aside"
+    "juan pedro capo"
+    ;
+    place-content: center;
+
+}
+.img{
+    margin: 0;
+    border: 1px solid;
+}
+.item-1{
+    background-color: rgba(225, 224, 233);
+    grid-area: nav;
+}
+.item-2{
+    background-color: rgba(255,233,206);
+    grid-area: head;
+
+}
+.item-3{
+    background-color: rgba(146,175,224);
+    grid-area: main;
+
+}
+.item-4{
+    background-color: rgba(40,61,120);
+    grid-area: aside;
+
+}
+.item-5{
+    background-color: rgba(206,61,44);
+    grid-area: juan;
+
+}
+.item-6{
+    background-color: rgba(249,238,219);
+    grid-area: pedro;
+
+}
+.item-7{
+    background-color: rgba(226,255,248);
+    grid-area: capo;
+
+}

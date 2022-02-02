@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+    text-align:center;
+    font-family: Arial;
+}
+
+h1, p {
+    color: whitesmoke;
+}
+
+#container {
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid whitesmoke;
+    padding: 0;
+}
+
+header h1{
+    font-weight: bold;
+    background-color:   #33A;
+    margin: 0;
+    padding: 0.5em;
+    margin-bottom: 40px;
+}
